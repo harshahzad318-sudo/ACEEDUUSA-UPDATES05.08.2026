@@ -1,0 +1,12 @@
+{
+  "name": "ACE Education USA",
+  "description": "Premium Online & In-Home Tutoring platform with Executive Business Intelligence, Financial Engine, and AI Analytics.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

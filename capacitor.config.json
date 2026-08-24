@@ -1,0 +1,24 @@
+{
+  "appId": "us.aceeducation.app",
+  "appName": "ACE Education USA",
+  "webDir": "out",
+  "bundledWebRuntime": false,
+  "server": {
+    "url": "https://aceeducation.us",
+    "cleartext": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "backgroundColor": "#0A192F",
+      "showSpinner": true,
+      "spinnerColor": "#D4AF37"
+    },
+    "PushNotifications": {
+      "presentationOptions": ["badge", "sound", "alert"]
+    },
+    "Biometrics": {
+      "allowDeviceCredential": true
+    }
+  }
+}
